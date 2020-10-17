@@ -3,19 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
-        "name": "Veryfy search field",
+        "line": 3,
+        "name": "Veryfy User can create a new account",
         "description": "",
-        "id": "search-functionality;veryfy-search-field",
+        "id": "creat-an-account;veryfy-user-can-create-a-new-account",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2937607706,
-              "status": "passed"
+              "duration": 268046052,
+              "error_message": "java.lang.NullPointerException: null value in entry: url\u003dnull\r\n\tat com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.\u003cinit\u003e(SingletonImmutableBiMap.java:42)\r\n\tat com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)\r\n\tat com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat com.testUtill1Page.TbasePage.getURL(TbasePage.java:47)\r\n\tat Stepdep1Page.Stepdep1Page.launch(Stepdep1Page.java:17)\r\n\tat ✽.Given Launch \"\u003cURL\u003e\"(framework.feature:4)\r\n",
+              "status": "failed"
             },
-            "line": 5,
+            "line": 4,
             "name": "Launch \"\u003cURL\u003e\"",
             "match": {
               "arguments": [
@@ -30,10 +31,9 @@
           },
           {
             "result": {
-              "duration": 341127629,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 6,
+            "line": 5,
             "name": "click on Sign In",
             "match": {
               "location": "Stepdep1Page.click_on_Sign_In()"
@@ -42,10 +42,9 @@
           },
           {
             "result": {
-              "duration": 4949256806,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 6,
             "name": "I can nevigate to the Creat an account page",
             "match": {
               "location": "Stepdep1Page.i_can_nevigate_to_the_Creat_an_account_page()"
@@ -54,10 +53,9 @@
           },
           {
             "result": {
-              "duration": 448091040,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 7,
             "name": "I Expect to Write First Name \"\u003cFirstName\u003e\"",
             "match": {
               "arguments": [
@@ -72,10 +70,9 @@
           },
           {
             "result": {
-              "duration": 178958139,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 8,
             "name": "I Expect to Write Last Name \"\u003cLastName\u003e\"",
             "match": {
               "arguments": [
@@ -90,10 +87,9 @@
           },
           {
             "result": {
-              "duration": 303830837,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 9,
             "name": "I Expect to Write Email Address \"\u003cEmailAddress\u003e\"",
             "match": {
               "arguments": [
@@ -108,10 +104,9 @@
           },
           {
             "result": {
-              "duration": 227411719,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 10,
             "name": "I can create a \"\u003cPassword\u003e\"",
             "match": {
               "arguments": [
@@ -126,10 +121,9 @@
           },
           {
             "result": {
-              "duration": 97875531,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 11,
             "name": "Verify I can see Show Password button",
             "match": {
               "location": "Stepdep1Page.verify_I_can_see_Show_Password_button()"
@@ -139,15 +133,15 @@
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 2,
             "name": "@Sanity"
           }
         ]
       }
     ],
-    "name": "Search Functionality",
+    "name": "Creat An Account",
     "description": "",
-    "id": "search-functionality",
+    "id": "creat-an-account",
     "keyword": "Feature",
     "uri": "framework.feature"
   }
